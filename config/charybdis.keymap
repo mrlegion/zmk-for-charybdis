@@ -69,7 +69,7 @@
 &kp ESC         &mt LS(NUMBER_1) NUMBER_1  &mt LS(N2) NUMBER_2  &mt LS(N3) NUMBER_3  &mt LS(N4) NUMBER_4  &mt LS(N5) N5    &mt LS(N6) NUMBER_6  &mt LS(N7) N7        &mt LS(N8) N8  &mt LS(N9) N9  &mt LS(N0) N0        &kp BACKSPACE
 &kp ESC         &kp Q                      &kp W                &kp E                &kp R                &kp T            &kp Y                &kp U                &kp I          &kp O          &kp P                &kp LEFT_BRACKET
 &kp TAB         &kp A                      &kp S                &kp D                &kp F                &kp G            &kp H                &kp J                &kp K          &kp L          &kp SEMI             &kp APOS
-&kp LEFT_SHIFT  &kp Z                      &kp X                &kp C                &mt LG(V) V          &lt 4 B          &lt 4 N              &mt RIGHT_BRACKET M  &lt 4 COMMA    &kp DOT        &mt RA(SLASH) SLASH  &kp RIGHT_SHIFT
+&kp LEFT_SHIFT  &kp Z                      &kp X                &kp C                &mt LG(V) V          &lt 3 B          &lt 3 N              &mt RIGHT_BRACKET M  &lt 3 COMMA    &kp DOT        &mt RA(SLASH) SLASH  &kp RIGHT_SHIFT
                                                                 &kp LCTRL            &kp LEFT_ALT         &kp LEFT_WIN     &kp RIGHT_ALT        &kp ENTER
                                                                                      &mo 1                &kp SPACE        &mo 2
             >;
@@ -82,7 +82,7 @@
 &kp LS(F7)   &none   &kp LEFT      &kp DOWN  &kp RIGHT      &kp LS(LALT)    &kp PAGE_DOWN    &kp N4  &kp N5  &kp N6   &none    &none
 &kp LSHFT    &none   &kp LC(LEFT)  &none     &kp LC(RIGHT)  &kp DEL         &kp PRINTSCREEN  &kp N1  &kp N2  &kp N3   &kp DOT  &kp RSHFT
                                    &trans    &trans         &trans          &none            &kp N0
-                                             &none          &none           &mo 3
+                                             &none          &none           &mo 5
             >;
         };
 
@@ -93,18 +93,7 @@
 &none      &kp BSLH  &kp LS(LPAR)  &kp MINUS      &kp LS(RPAR)   &kp LS(PLUS)    &kp LS(PRCNT)  &kp LS(LBRC)  &kp SEMI       &kp LS(RBRC)  &kp LS(EXCL)  &none
 &kp LSHFT  &none     &kp LS(STAR)  &kp LS(COLON)  &kp FSLH       &none           &none          &kp LS(PIPE)  &kp LS(TILDE)  &kp LS(AMPS)  &none         &kp RSHFT
                                    &none          &none          &none           &none          &none
-                                                  &mo 3          &none           &none
-            >;
-        };
-
-        Ajust {
-            bindings = <
-&basePWRD  &none  &none  &none  &none  &kusr       &outlookPSWD    &none  &none         &none         &none         &none
-&none      &none  &none  &none  &none  &none       &bt BT_CLR      &none  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &none
-&none      &none  &none  &none  &none  &none       &none           &none  &none         &none         &none         &none
-&none      &none  &none  &none  &none  &kurs_ip    &studio_unlock  &none  &none         &none         &none         &kp INSERT
-                         &none  &none  &none       &none           &none
-                                &none  &none       &none
+                                                  &mo 5          &none           &none
             >;
         };
 
@@ -112,7 +101,7 @@
             bindings = <
 &mkp MB4     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none      &bt BT_CLR    &bt BT_CLR  &none      &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &mkp MB4
 &none        &none         &none         &mkp MCLK     &none      &none         &none       &none      &mkp MCLK     &none         &none         &none
-&none        &none         &mkp RCLK     &mo 5         &mkp LCLK  &none         &none       &mkp LCLK  &mo 5         &mkp RCLK     &none         &none
+&none        &none         &mkp RCLK     &mo 4         &mkp LCLK  &none         &none       &mkp LCLK  &mo 4         &mkp RCLK     &none         &none
 &bootloader  &none         &none         &none         &none      &none         &none       &none      &none         &none         &none         &bootloader
                                          &none         &none      &none         &none       &mkp LCLK
                                                        &mkp LCLK  &mkp RCLK     &mkp RCLK
@@ -127,6 +116,17 @@
 &bootloader  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &bootloader
                            &none  &none  &none    &none  &none
                                   &none  &none    &none
+            >;
+        };
+
+        Ajust {
+            bindings = <
+&basePWRD  &none  &none  &none  &none  &kusr       &outlookPSWD    &none  &none         &none         &none         &none
+&none      &none  &none  &none  &none  &none       &bt BT_CLR      &none  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &none
+&none      &none  &none  &none  &none  &none       &none           &none  &none         &none         &none         &none
+&none      &none  &none  &none  &none  &kurs_ip    &studio_unlock  &none  &none         &none         &none         &kp INSERT
+                         &none  &none  &none       &none           &none
+                                &none  &none       &none
             >;
         };
     };

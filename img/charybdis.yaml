@@ -228,6 +228,63 @@ layers:
   - ''
   - ''
   - '&mkp RCLK'
+  Snipper:
+  - '&mkp MB4'
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - ''
+  - BT CLR
+  - BT CLR
+  - ''
+  - {t: BT, h: '2'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '0'}
+  - '&mkp MB4'
+  - ''
+  - ''
+  - ''
+  - '&mkp MCLK'
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp MCLK'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&mkp RCLK'
+  - Scroll
+  - '&mkp LCLK'
+  - ''
+  - ''
+  - '&mkp LCLK'
+  - Scroll
+  - '&mkp RCLK'
+  - ''
+  - ''
+  - '&bootloader'
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - '&bootloader'
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
+  - '&mkp MCLK'
+  - '&mkp LCLK'
+  - ''
+  - ''
+  - '&mkp RCLK'
   Scroll:
   - ''
   - ''
@@ -342,60 +399,3 @@ layers:
   - {type: held}
   - ''
   - {type: held}
-  Snipper:
-  - '&mkp MB4'
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - ''
-  - BT CLR
-  - BT CLR
-  - ''
-  - {t: BT, h: '2'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '0'}
-  - '&mkp MB4'
-  - ''
-  - ''
-  - ''
-  - '&mkp MCLK'
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&mkp MCLK'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&mkp RCLK'
-  - Scroll
-  - '&mkp LCLK'
-  - ''
-  - ''
-  - '&mkp LCLK'
-  - Scroll
-  - '&mkp RCLK'
-  - ''
-  - ''
-  - '&bootloader'
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - '&bootloader'
-  - '&mkp LCLK'
-  - '&mkp MCLK'
-  - '&mkp RCLK'
-  - '&mkp MCLK'
-  - '&mkp LCLK'
-  - ''
-  - ''
-  - '&mkp RCLK'

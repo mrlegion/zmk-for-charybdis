@@ -97,7 +97,7 @@ layers:
   - LSHFT
   - ''
   - Ctl+←
-  - ''
+  - {t: Alt+INSERT, h: Alt+Ctl+INSERT}
   - Ctl+→
   - DEL
   - PRINTSCREEN

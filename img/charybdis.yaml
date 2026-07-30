@@ -43,7 +43,7 @@ layers:
   - C
   - {t: V, h: Gui+V}
   - {t: B, h: Snipper}
-  - {t: N, h: Mouse}
+  - N
   - {t: M, h: ']'}
   - {t: ',', h: Snipper}
   - .
@@ -106,9 +106,9 @@ layers:
   - '3'
   - .
   - RSHFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
   - ''
   - '0'
   - {type: held}
@@ -168,8 +168,8 @@ layers:
   - ''
   - ''
   - {type: held}
-  - Ajust
   - ''
+  - Ajust
   - ''
   Mouse:
   - '&mkp MB4'
@@ -214,7 +214,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
@@ -328,7 +328,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''

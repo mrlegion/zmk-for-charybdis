@@ -5,9 +5,9 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &lt {
-    tapping-term-ms = <200>;
+    tapping-term-ms = <250>;
     flavor = "balanced";
-    quick-tap-ms = <150>;
+    quick-tap-ms = <175>;
 };
 
 / {
@@ -69,7 +69,7 @@
 &kp ESC         &mt LS(NUMBER_1) NUMBER_1  &mt LS(N2) NUMBER_2  &mt LS(N3) NUMBER_3  &mt LS(N4) NUMBER_4  &mt LS(N5) N5    &mt LS(N6) NUMBER_6  &mt LS(N7) N7        &mt LS(N8) N8  &mt LS(N9) N9  &mt LS(N0) N0        &kp BACKSPACE
 &kp ESC         &kp Q                      &kp W                &kp E                &kp R                &kp T            &kp Y                &kp U                &kp I          &kp O          &kp P                &kp LEFT_BRACKET
 &kp TAB         &kp A                      &kp S                &kp D                &kp F                &kp G            &kp H                &kp J                &kp K          &kp L          &kp SEMI             &kp APOS
-&kp LEFT_SHIFT  &kp Z                      &kp X                &kp C                &mt LG(V) V          &lt 4 B          &lt 3 N              &mt RIGHT_BRACKET M  &lt 4 COMMA    &kp DOT        &mt RA(SLASH) SLASH  &kp RIGHT_SHIFT
+&kp LEFT_SHIFT  &kp Z                      &kp X                &kp C                &mt LG(V) V          &lt 4 B          &kp N                &mt RIGHT_BRACKET M  &lt 4 COMMA    &kp DOT        &mt RA(SLASH) SLASH  &kp RIGHT_SHIFT
                                                                 &kp LCTRL            &kp LEFT_WIN         &kp LEFT_ALT     &kp RIGHT_ALT        &mo 2
                                                                                      &mo 1                &kp SPACE        &kp ENTER
             >;
@@ -77,12 +77,12 @@
 
         Lower {
             bindings = <
-&kp F1       &kp F2  &kp F3        &kp F4    &kp F5         &kp F6          &kp F7           &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&kp LS(F12)  &none   &none         &kp UP    &kp LC(F3)     &kp LC(Y)       &kp PAGE_UP      &kp N7  &kp N8  &kp N9   &none    &none
-&kp LS(F7)   &none   &kp LEFT      &kp DOWN  &kp RIGHT      &kp LS(LALT)    &kp PAGE_DOWN    &kp N4  &kp N5  &kp N6   &none    &none
-&kp LSHFT    &none   &kp LC(LEFT)  &none     &kp LC(RIGHT)  &kp DEL         &kp PRINTSCREEN  &kp N1  &kp N2  &kp N3   &kp DOT  &kp RSHFT
-                                   &trans    &trans         &trans          &none            &kp N0
-                                             &none          &none           &mo 6
+&kp F1       &kp F2  &kp F3        &kp F4     &kp F5         &kp F6          &kp F7           &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&kp LS(F12)  &none   &none         &kp UP     &kp LC(F3)     &kp LC(Y)       &kp PAGE_UP      &kp N7  &kp N8  &kp N9   &none    &none
+&kp LS(F7)   &none   &kp LEFT      &kp DOWN   &kp RIGHT      &kp LS(LALT)    &kp PAGE_DOWN    &kp N4  &kp N5  &kp N6   &none    &none
+&kp LSHFT    &none   &kp LC(LEFT)  &none      &kp LC(RIGHT)  &kp DEL         &kp PRINTSCREEN  &kp N1  &kp N2  &kp N3   &kp DOT  &kp RSHFT
+                                   &mkp LCLK  &mkp MCLK      &mkp RCLK       &none            &kp N0
+                                              &none          &none           &mo 6
             >;
         };
 
@@ -93,7 +93,7 @@
 &none      &kp BSLH  &kp LS(LPAR)   &kp MINUS      &kp LS(RPAR)   &kp LS(PLUS)    &kp LS(PRCNT)  &kp LS(LBRC)  &kp SEMI       &kp LS(RBRC)  &kp LS(EXCL)  &none
 &kp LSHFT  &none     &kp LS(STAR)   &kp LS(COLON)  &kp FSLH       &none           &none          &kp LS(PIPE)  &kp LS(TILDE)  &kp LS(AMPS)  &none         &kp RSHFT
                                     &none          &none          &none           &none          &none
-                                                   &mo 6          &none           &none
+                                                   &none          &mo 6           &none
             >;
         };
 
